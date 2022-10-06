@@ -1,12 +1,10 @@
-package dao;
+package service;
 
 import entity.Product;
-import org.hibernate.Session;
-import utils.HibernateSessionFactoryUtil;
 
 import java.util.List;
 
-public interface ProductDao {
+public interface ProductService {
     Product findByID(Long id);
 
 

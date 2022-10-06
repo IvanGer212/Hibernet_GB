@@ -13,8 +13,11 @@ public class Product {
 
     @Column (name = "title")
     String title;
+
     @Column (name = "price")
     int price;
+
+    public Product(){}
 
     public Product(String title, int price) {
         this.title = title;
